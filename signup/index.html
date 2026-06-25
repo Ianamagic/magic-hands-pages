@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Free In-Home Assessment | Magic Hands Cleaning Team</title>
+<meta name="description" content="Request your free in-home cleaning assessment from Magic Hands Cleaning Team in Brevard County, FL. Pet-safe, eco-friendly. Optionally opt in to text updates.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito+Sans:wght@400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  :root{--green:#3FA34D;--forest:#1F6B3B;--mint:#CDEBD6;--sand:#E4C19A;--charcoal:#232323;--offwhite:#F7FBF8;}
+  body{font-family:'Nunito Sans',sans-serif;color:var(--charcoal);background:var(--mint);}
+  .phone{max-width:480px;margin:0 auto;background:var(--offwhite);min-height:100vh;box-shadow:0 0 40px rgba(0,0,0,.12);}
+  .hero{background:linear-gradient(135deg,var(--forest),var(--green));color:#fff;padding:34px 26px 26px;text-align:center;}
+  .hero img{max-width:130px;margin-bottom:12px;background:#fff;padding:12px 16px;border-radius:18px;box-shadow:0 6px 18px rgba(0,0,0,.18);}
+  .hero h1{font-family:'Poppins';font-weight:800;font-size:1.35rem;letter-spacing:.5px;}
+  .hero .script{font-family:'Dancing Script';font-size:1.25rem;opacity:.95;}
+  .hero p{margin-top:10px;font-size:.98rem;opacity:.95;line-height:1.5;}
+  .sec{padding:26px;}
+  .sec h2{font-family:'Poppins';font-weight:700;color:var(--forest);font-size:1.2rem;margin-bottom:6px;text-align:center;}
+  .sec .sub{text-align:center;color:#555;font-size:.92rem;margin-bottom:20px;line-height:1.5;}
+  label.fld{display:block;font-family:'Poppins';font-weight:600;font-size:.9rem;color:var(--forest);margin-bottom:6px;}
+  input[type=text],input[type=tel]{width:100%;padding:14px;border:2px solid #d8e8dd;border-radius:12px;font-size:1rem;font-family:'Nunito Sans';margin-bottom:16px;background:#fff;}
+  input[type=text]:focus,input[type=tel]:focus{outline:none;border-color:var(--green);}
+  .consent{display:flex;gap:11px;align-items:flex-start;background:#fff;border:2px solid var(--mint);border-radius:14px;padding:15px;margin-bottom:18px;}
+  .consent input{margin-top:3px;min-width:20px;min-height:20px;accent-color:var(--green);}
+  .consent .txt{font-size:.82rem;color:#444;line-height:1.5;}
+  .consent a{color:var(--forest);font-weight:700;}
+  .btn{display:block;width:100%;background:var(--green);color:#fff;border:none;font-family:'Poppins';font-weight:700;font-size:1.1rem;padding:16px;border-radius:50px;cursor:pointer;}
+  .btn:active{background:var(--forest);}
+  .or{text-align:center;color:#888;font-size:.85rem;margin:18px 0 10px;}
+  .callbtn{display:block;text-align:center;background:#fff;color:var(--forest);border:2px solid var(--green);font-family:'Poppins';font-weight:700;font-size:1rem;text-decoration:none;padding:14px;border-radius:50px;}
+  .trust{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:22px 0 6px;}
+  .badge{background:#fff;border:2px solid var(--green);color:var(--forest);border-radius:30px;padding:7px 14px;font-weight:700;font-size:.78rem;}
+  .foot{text-align:center;font-size:.78rem;color:#777;padding:18px 26px 30px;line-height:1.5;}
+  .foot a{color:var(--forest);}
+  .thanks{display:none;text-align:center;padding:40px 26px;}
+  .thanks .ico{font-size:3rem;}
+  .thanks h2{font-family:'Poppins';color:var(--forest);margin:12px 0 8px;}
+  .thanks p{color:#555;line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="phone">
+
+  <div class="hero">
+    <img src="https://ianamagic.github.io/magic-hands-pages/raw/screenshots/logo.png" alt="Magic Hands Cleaning Team">
+    <h1>MAGIC HANDS SERVICE</h1>
+    <div class="script">Cleaning Team</div>
+    <p>Expert eco-friendly cleaning you can trust — safe for the ones you love, <b>pets included.</b> 🐾</p>
+  </div>
+
+  <div class="sec" id="formSec">
+    <h2>Request a FREE In-Home Assessment</h2>
+    <div class="sub">No pressure, no obligation. Tell us how to reach you and we'll set it up.</div>
+
+    <form id="optin" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_KEY">
+      <input type="hidden" name="subject" value="New free-assessment request (Magic Hands signup page)">
+      <input type="hidden" name="from_name" value="Magic Hands signup page">
+
+      <label class="fld" for="name">Your name</label>
+      <input type="text" id="name" name="name" placeholder="First and last name" required>
+
+      <label class="fld" for="phone">Mobile phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="(321) 000-0000" required>
+
+      <div class="consent">
+        <input type="checkbox" id="sms" name="sms_consent" value="yes" required>
+        <span class="txt">
+          I agree to receive text messages from <b>Magic Hands Cleaning Team</b> about my requested service —
+          including appointment confirmations, reminders, follow-ups, and review requests. Message frequency varies.
+          Msg &amp; data rates may apply. Reply <b>STOP</b> to unsubscribe, <b>HELP</b> for help. Consent is not a
+          condition of purchase. See our
+          <a href="https://ianamagic.github.io/magic-hands-pages/privacy" target="_blank">Privacy Policy</a> and
+          <a href="https://ianamagic.github.io/magic-hands-pages/terms" target="_blank">Terms</a>.
+        </span>
+      </div>
+
+      <button type="submit" class="btn">Request my free assessment</button>
+    </form>
+
+    <div class="or">— or reach us directly —</div>
+    <a class="callbtn" href="tel:+13215025699">📞 Call or Text: (321) 502-5699</a>
+
+    <div class="trust">
+      <span class="badge">Licensed</span>
+      <span class="badge">Insured</span>
+      <span class="badge">Pet-Safe</span>
+      <span class="badge">Eco-Friendly</span>
+    </div>
+  </div>
+
+  <div class="thanks" id="thanks">
+    <div class="ico">✅</div>
+    <h2>Thank you!</h2>
+    <p>We got your request. We'll text or call you shortly to schedule your free in-home assessment. 🌿</p>
+  </div>
+
+  <div class="foot">
+    Magic Hands Service · Palm Bay &amp; Brevard County, FL<br>
+    <a href="https://magichandscleaningteam.com/">magichandscleaningteam.com</a> ·
+    <a href="https://ianamagic.github.io/magic-hands-pages/privacy">Privacy</a> ·
+    <a href="https://ianamagic.github.io/magic-hands-pages/terms">Terms</a>
+  </div>
+
+</div>
+
+<script>
+  var form = document.getElementById('optin');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if(!document.getElementById('sms').checked){ alert('Please check the box to agree to receive text messages.'); return; }
+    var key = form.access_key.value;
+    function showThanks(){
+      document.getElementById('formSec').style.display='none';
+      document.getElementById('thanks').style.display='block';
+      window.scrollTo(0,0);
+    }
+    if(key && key.indexOf('REPLACE_') === -1){
+      fetch('https://api.web3forms.com/submit',{method:'POST',body:new FormData(form)})
+        .then(function(){ showThanks(); })
+        .catch(function(){ showThanks(); });
+    } else {
+      showThanks();
+    }
+  });
+</script>
+</body>
+</html>
